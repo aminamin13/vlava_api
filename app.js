@@ -30,5 +30,5 @@ app.get('/services', (req, res) => {
 
 
 })
-const _PORt = env.PORT || 3000
+const _PORt = process.env.PORT || 3000
 app.listen(_PORt)
